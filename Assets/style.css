@@ -464,18 +464,19 @@ p {
 
 .burger{
   display: none;
+  padding: 9px 2px;
+  background: none;
+  border: 0;
+  cursor: pointer;
 }
 
 .burger__item{
   display: block;
   width: 28px;
   height: 3px;
-
   background-color: #fff;
   font-size: 0;
   color: transparent;
-  cursor: pointer;
-
   position: relative;
 }
 
